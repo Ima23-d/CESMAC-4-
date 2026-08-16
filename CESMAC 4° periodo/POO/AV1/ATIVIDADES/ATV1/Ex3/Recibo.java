@@ -29,7 +29,7 @@ class Recibo {
 
  
     public boolean validarRecibo() {
-        if (this.valor > 0 && !this.recebedor.isEmpty() && !this.pagador.isEmpty()) {
+        if (this.valor > 0 && this.recebedor != null && !this.recebedor.isEmpty() && this.pagador != null && !this.pagador.isEmpty()) {
             System.out.println("Recibo Nº " + this.numero + " VÁLIDO.");
             return true;
         } else {
