@@ -1,4 +1,4 @@
-public class Main{
+class MainAuxiliar {
 	public static void main(String[] args) {
 	    
 	    // Cão 1

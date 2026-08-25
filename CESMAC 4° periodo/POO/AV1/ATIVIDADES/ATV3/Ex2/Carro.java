@@ -4,10 +4,10 @@ class Carro {
     private int velocidade;
     private boolean ligado;
 
-    public Carro(String modelo, int velocidade, boolean ligado) {
+    public Carro(String modelo, int velocidade) {
         this.modelo = modelo;
         this.velocidade = velocidade;
-        this.ligado = ligado;
+        this.ligado = false;
     }
 
     public void acelerar() {
@@ -34,7 +34,7 @@ class Carro {
         return "Carro ligado.";
     }
 
-    public void exibirInformacoes() {
+    public void info() {
         System.out.println("____INFORMACOES____");
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Velocidade: " + this.velocidade);

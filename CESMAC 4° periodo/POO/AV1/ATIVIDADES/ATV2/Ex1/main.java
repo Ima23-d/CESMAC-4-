@@ -1,5 +1,3 @@
-import modulo.Produto;
-
 class Main {
     public static void main(String[] args) {
         Produto p1 = new Produto("TV", 1500, 7);
