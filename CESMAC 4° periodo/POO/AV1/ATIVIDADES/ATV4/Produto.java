@@ -10,5 +10,9 @@ public class Produto{
         this.preco = preco;
         this.estoque = estoque;
     }  
-    
+      public String toString(){
+        return "Nome\n "+nome 
+                +"\nPreço\n "+preco
+                +"\nEstoque\n "+estoque;
+    }
 }
