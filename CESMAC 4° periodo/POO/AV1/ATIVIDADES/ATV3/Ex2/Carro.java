@@ -1,4 +1,4 @@
-class Carro {
+public class Carro {
 
     private String modelo;
     private int velocidade;
@@ -34,10 +34,11 @@ class Carro {
         return "Carro ligado.";
     }
 
-    public void info() {
-        System.out.println("____INFORMACOES____");
-        System.out.println("Modelo: " + this.modelo);
-        System.out.println("Velocidade: " + this.velocidade);
-        System.out.println("Ligado: " + this.ligado);
+    public String toString() {
+        return "Carro{" +
+                "modelo='" + modelo + '\'' +
+                ", velocidade=" + velocidade +
+                ", ligado=" + ligado +
+                '}';
     }
 }

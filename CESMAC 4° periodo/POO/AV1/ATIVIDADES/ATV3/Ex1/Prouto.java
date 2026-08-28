@@ -26,9 +26,11 @@ public class Produto{
         }
     }
 
-    public void info(){
-        System.out.println("Nome: "+nome);
-        System.out.println("Preço: "+preco);
-        System.out.println("Estoque: "+estoque);
+    public String toString(){
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                ", estoque=" + estoque +
+                '}';
     }
 }

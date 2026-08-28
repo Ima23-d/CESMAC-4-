@@ -1,4 +1,4 @@
-class Recibo {
+public class Recibo {
 
     private int numero;
     private double valor;

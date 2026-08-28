@@ -1,13 +1,13 @@
-class Carro {
+public class Carro {
 
     private String modelo;
     private int velocidade;
     private boolean ligado;
 
-    public Carro(String modelo, int velocidade, boolean ligado) {
+    public Carro(String modelo, int velocidade) {
         this.modelo = modelo;
         this.velocidade = velocidade;
-        this.ligado = ligado;
+        this.ligado = false;
     }
 
     public void acelerar() {
@@ -34,10 +34,9 @@ class Carro {
         return "Carro ligado.";
     }
 
-    public void exibirInformacoes() {
-        System.out.println("____INFORMACOES____");
-        System.out.println("Modelo: " + this.modelo);
-        System.out.println("Velocidade: " + this.velocidade);
-        System.out.println("Ligado: " + this.ligado);
+    public String toString(){
+        return "Modelo\n "+modelo
+                +"\nVelocidade\n "+velocidade
+                +"\nLigado\n "+ligado;
     }
 }

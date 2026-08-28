@@ -1,4 +1,4 @@
-class Produto {
+public class Produto {
   
     private String nome;
     private double preco;
@@ -19,11 +19,10 @@ class Produto {
         this.estoque -= 1; 
     }
     
-    public void exibirInformacoes() {
-        System.out.println("____INFORMAÇÕES____");
-        System.out.println("Produto: " + this.nome);  
-        System.out.println("Preço: " + this.preco); 
-        System.out.println("Estoque: " + this.estoque); 
+    public String toString(){
+        return "Nome\n " + nome
+                + "\nPreço\n "+preco
+                + "\nEstoque\n "+estoque;
     }
 }
 

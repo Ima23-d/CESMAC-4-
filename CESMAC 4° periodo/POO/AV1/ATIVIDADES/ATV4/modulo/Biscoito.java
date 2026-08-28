@@ -7,6 +7,7 @@ class Biscoito extends Produto{
         this.sabor = sabor;
     }
 
+    //Polimorfismo de sobreposição
     @Override
     public String toString(){
         return "Biscoito " + "Nome:\n " + nome + "\nPreço:\n " + preco + "\nEstoque:\n " + estoque + "\nSabor:\n " + sabor;

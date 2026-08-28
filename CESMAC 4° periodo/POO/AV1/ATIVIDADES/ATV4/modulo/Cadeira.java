@@ -15,6 +15,7 @@ class Cadeira extends Produto{
         return comprimento * largura;
     }
     
+    //Polimorfismo de sobreposição
     @Override
     public String toString(){
         return "Nome:\n " + nome

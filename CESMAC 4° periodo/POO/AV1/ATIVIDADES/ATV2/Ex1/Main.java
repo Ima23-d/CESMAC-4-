@@ -4,9 +4,7 @@ public class Main {
         
         p1.aplicarDesconto();
         p1.reduzirEstoque();
-
+        System.out.println(p1);
         
-        p1.exibirInformacoes();
-
     }
 }

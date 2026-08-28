@@ -6,7 +6,7 @@ public class Main{
 		c1.acelerar();
 		c1.frear();
 		c1.desligar();
-		c1.info();
+		System.out.println(c1);
 		
 
 	}
